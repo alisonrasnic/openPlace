@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "tsc index/index.ts | cp build/index.js C:/Apache24/htdocs/index.js | cp index/index.html C:/Apache24/htdocs/index.html"
+  },
+  "dependencies": {
+    "@angular/compiler": "^20.2.2",
+    "@angular/core": "^20.2.1",
+    "@angular/platform-browser": "^20.2.2",
+    "@types/node": "^24.3.0",
+    "zone.js": "^0.15.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.9"
+  }
+}

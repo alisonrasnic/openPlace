@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "preserveConstEnums": true,
+    "outDir": "./build",
+    "target": "ES2022",
+    "moduleResolution": "node"
+  },
+  "files": ["index/main.ts", "index/app.ts", "index/app.config.ts"],
+  "include": ["node_modules/*"],
+  "exclude": ["**/*.spec.ts"]
+}
